@@ -86,7 +86,7 @@ function displayFavoriteMeals() {
 
     favoritesDiv.innerHTML = favoriteList;
 
-    // Add event listeners to remove favorite buttons
+    // Add event listeners to remove favorite meals by clicking the buttons
     const removeFavoriteButtons = document.querySelectorAll('.remove-favorite-btn');
     removeFavoriteButtons.forEach(button => {
         button.addEventListener('click', (event) => {
