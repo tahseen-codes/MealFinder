@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #bfdc98;
+}
+
+header {
+    background-color:#333;
+    background-image: url(banner.png);
+    background-blend-mode:lighten ;
+    color: #333;
+    box-shadow: #bfdc98;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+#search {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border-color: #333;
+    border-width: 8px;
+    border-radius: 20px;
+}
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.meal {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.meal img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.meal h3 {
+    margin: 10px 0;
+}
+
+.favorite-btn, .detail-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.favorite-btn:hover, .detail-btn:hover {
+    background-color: #555;
+}
+
+#favorites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.favorite-meal {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.favorite-meal img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.favorite-meal h3 {
+    margin: 10px 0;
+}
+
+.remove-favorite-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.remove-favorite-btn:hover {
+    background-color: #cc0000;
+}
+
+#mealDetail {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.meal-detail {
+    text-align: center;
+}
+
+.meal-detail img {
+    max-width: 30%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.meal-detail h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.meal-detail p {
+    margin: 10px 0;
+}
